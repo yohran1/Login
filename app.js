@@ -18,11 +18,3 @@ app.use('/user', express.json(), userRouter)
 app.use('/admin',  express.json(), adminRouter)
 
 app.listen(process.env.port, () => { console.log("Server Running ") })
-
-
-
-
-
-
-
-// mongodb+srv://Yohran_Kallahari:<password>@blabla.ibe1zid.mongodb.net/?retryWrites=true&w=majority
